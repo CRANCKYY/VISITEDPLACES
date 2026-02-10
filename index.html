@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Place I've Been</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <h1>Places I've Been</h1>
+
+        <form id="place-form">
+            <input id="location" placeholder="Location" required>
+            <input id="landmarks" placeholder="Landmarks" required>
+            <select id="time" required>
+                  <option value="">Select Time of Year</option>
+                  <option value="Winter">Winter</option>
+                  <option value="Spring">Spring</option>
+                  <option value="Summer">Summer</option>
+                  <option value="Fall">Fall</option>
+                  <option value="Christmas Season">Christmas Season</option>
+                  <option value="Easter">Easter</option>
+                  <option value="Year-round">Year-round</option>
+            </select>
+            <div>
+                 <textarea id="notes" placeholder="Notes"></textarea>
+                 <button type="submit">Add Place</button>
+            </div>
+        </form>
+        <hr>
+
+        <h2>Places</h2>
+        <ul id="places-list"></ul>
+        <hr>
+
+        <h2>Details</h2>
+        <div>
+             <p class="P1"><strong>Location:</strong> <span id="details-location"></span></p>
+        </div>
+        <div>
+             <p class="P2"><strong>Landmarks:</strong> <span id="details-landmarks"></span></p>
+        </div>
+        <div>
+             <p class="P3"><strong>Time of Year:</strong> <span id="details-time"></span></p>
+        </div>
+        <div>
+             <p class="P4"><strong>Notes:</strong> <span id="details-notes"></span></p>
+        </div>
+
+        <script src="js/script.js" defer></script>
+    </body>
+</html>

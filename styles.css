@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    background-image: url("https://wallpaper.dog/large/10732936.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+body h1{
+    padding: 10px 10px;
+    background-color: whitesmoke;
+    display: inline-block;
+    border-radius: 50px;   
+}
+body h2{
+    padding: 10px 10px;
+    background-color: whitesmoke;
+    display: inline-block;
+    border-radius: 50px;
+}
+
+form input{
+    padding: 10px 10px;
+    background-color: rgb(124, 164, 232);
+    border-radius: 10px;
+}  
+form textarea{
+    padding: 10px 10px;
+    background-color: rgb(124, 168, 232);
+    border-radius: 10px;
+}
+#places-list li {
+    padding: 5px 5px;
+    background-color:  rgb(124, 168, 232);
+    color:black;
+    display: inline-block;
+    border-radius: 10px;
+}
+#places-list li:hover {
+    color: blue;
+}
+.P1,.P2,.P3,.P4{
+    display: inline-block;
+    padding: 10px;
+    background-color: blanchedalmond;
+    border-radius: 10px;
+}
